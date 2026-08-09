@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/
+
+# Chroma database
+chroma/
+chromadb_data/
+vector_db/
+hr_policy_audit.sqlite3
+*.sqlite3
+*.db
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Generated artifacts
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.csv
